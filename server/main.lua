@@ -13,7 +13,8 @@ end)
 RegisterNetEvent("golding")
 AddEventHandler("golding", function()
 local xPlayer = RDX.GetPlayerFromId(source)
-local roll = math.random(0,4)
+local roll = math.random(0,7)
+local callItem = Config.itemList[roll]		
 
     if roll == 3 then 
      xPlayer.addInventoryItem("item_silvernugget", 1)            
