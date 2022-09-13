@@ -14,3 +14,17 @@ Config.itemList = {
   [10] = nil,
   }
   
+
+Config.textList = {
+  [0] =  "Found nothing!",
+  [1] =  "Found a Silver Nugget!",
+  [2]=   "Caught a Small Fish.",
+  [3] =  "Found nothing!",
+  [4] =  "Found a Silver Nugget!",
+  [5] =  "Caught a Small Fish.",
+  [6] =  "Found some Fools Gold.",
+  [7] =  "Found a Gold Nugget!!!",
+  [8] =  "Found nothing!",
+  [9] =  "Found some Fools Gold.",
+  [10] = "Found nothing!",
+  }
