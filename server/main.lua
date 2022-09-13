@@ -1,5 +1,4 @@
 RDX = nil
-
 TriggerEvent('rdx:getSharedObject', function(obj) RDX = obj end) 
 
 RDX.RegisterUsableItem('item_goldpan', function(source)
