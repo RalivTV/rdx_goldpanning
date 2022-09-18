@@ -16,7 +16,7 @@ AddEventHandler("golding", function()
 
  if callItemm == nil then
      TriggerClientEvent("rdx:Alert",source, "..callText..", 2)		
-     return
+     --return
  else
      xPlayer.addInventoryItem(callItem, 1)
      TriggerClientEvent("rdx:Alert",source, "..callText..", 2)
