@@ -3,8 +3,8 @@ TriggerEvent('rdx:getSharedObject', function(obj) RDX = obj end)
 
 RDX.RegisterUsableItem('item_goldpan', function(source)
     local xPlayer = RDX.GetPlayerFromId(source)
-    TriggerClientEvent('rdx_pneira:StartPaning', source)
-    TriggerClientEvent("rdx_pneira:alert",source, "used goldpan", 2)
+    TriggerClientEvent('rdx:StartPanning', source)
+    TriggerClientEvent("rdx:Alert",source, "used goldpan", 2)
 end)
 
 RegisterNetEvent("golding")
