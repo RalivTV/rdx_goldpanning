@@ -15,7 +15,7 @@ AddEventHandler("golding", function()
  local callText = Config.texList[roll]		
 
  if callItemm == nil then
-     TriggerClientEvent("rdx_pneira:alert",source, "..callText..", 2)		
+     TriggerClientEvent("rdx:Alert",source, "..callText..", 2)		
      return
  else
      xPlayer.addInventoryItem(callItem, 1)
