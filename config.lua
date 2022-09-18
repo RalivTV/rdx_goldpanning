@@ -12,8 +12,7 @@ Config.itemList = {
   [8] =  nil,
   [9] =  "item_foolsgold",
   [10] = nil,
-  }
-  
+  } 
 
 Config.textList = {
   [0] =  "Found nothing!",
