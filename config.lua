@@ -1,9 +1,5 @@
 Config = {}
 
--- Clientside
-
-
--- Serverside
 Config.itemList = {
   [0] =  nil,
   [1] =  "item_silvernugget",
