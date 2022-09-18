@@ -19,6 +19,6 @@ AddEventHandler("golding", function()
      return
  else
      xPlayer.addInventoryItem(callItem, 1)
-     TriggerClientEvent("rdx_pneira:alert",source, "..callText..", 2)
+     TriggerClientEvent("rdx:Alert",source, "..callText..", 2)
  end   		
 end)
