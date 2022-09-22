@@ -10,8 +10,12 @@ INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES
 
 	('item_goldnugget', 'Gold Nugget', 1, 0, 1),
 	('item_silvernugget', 'Silver Nugget', 1, 0, 1),
-                ('item_goldpan', 'Gold Pan', 1, 0, 1),
-                ('smallfish', 'Small Fish', 1, 0, 1);
+        ('item_goldpan', 'Gold Pan', 1, 0, 1),
+        ('item_fish', 'Small Fish', 1, 0, 1);
+	('item_foolsgold', 'Fools Gold', 1, 0, 1);
+
+
+
 /*!40000 ALTER TABLE `items` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

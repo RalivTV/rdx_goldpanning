@@ -43,16 +43,16 @@ local WaterTypes = {
     [27] =  {["name"] = "Random5",              ["waterhash"] = -196675805, ["watertype"] = "river"},
 }
 
-RegisterNetEvent('rdx_pneira:alert')	
-AddEventHandler('rdx_pneira:alert', function(txt)
+RegisterNetEvent('rdx:Alert')	
+AddEventHandler('rdx:Alert', function(txt)
     SetTextScale(0.5, 0.5)
     local str = Citizen.InvokeNative(0xFA925AC00EB830B9, 10, "LITERAL_STRING", txt, Citizen.ResultAsLong())
     Citizen.InvokeNative(0xFA233F8FE190514C, str)
     Citizen.InvokeNative(0xE9990552DEC71600)
 end)
 
-RegisterNetEvent('rdx_pneira:StartPaning')
-AddEventHandler('rdx_pneira:StartPaning', function()
+RegisterNetEvent('rdx:StartPanning')
+AddEventHandler('rdx:StartPanning', function()
     if not Panning then 
         Panning = true
         local ped = PlayerPedId()
